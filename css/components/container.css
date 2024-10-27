@@ -1,0 +1,29 @@
+ .container{
+ 	width: 700px;
+ 	margin: 20px auto;
+ }
+@media (max-width: 900px) {
+	.h1{
+		font-size: 2.2em;
+	}
+	div {
+		padding: 30px;
+	}
+}
+
+@media (max-width: 720px) {
+ 	.h1	 {
+ 		font-size: 2em;
+ 	}	
+ 	.container {
+ 		width: 90%;
+ 	}
+}
+
+@media (max-width: 540px) {
+	h1 {
+		font-size: 1.8em;
+	}
+	div {
+		padding: 20px;
+	}
